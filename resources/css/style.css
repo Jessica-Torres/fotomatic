@@ -115,8 +115,8 @@ header .mobile {
 
 /* Sign Up Section ----------------------------------------*/
 
-#sign-up-section .banner {
-  background-image: url(resources/images/banner-landingpage.jpg);
+.main-content .banner {
+  background-image: url("https://github.com/Jessica-Torres/fotomatic/blob/master/resources/images/banner-landingpage.jpg");
 }
 #sign-up-section {
   display: flex;
