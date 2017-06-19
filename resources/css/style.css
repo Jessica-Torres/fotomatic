@@ -116,7 +116,7 @@ header .mobile {
 /* Sign Up Section ----------------------------------------*/
 
 #sign-up-section .banner {
-  background-image: url("resources/images/banner-landingpage.jpg");
+  background-image: url(resources/images/banner-landingpage.jpg);
 }
 #sign-up-section {
   display: flex;
