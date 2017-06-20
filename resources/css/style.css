@@ -286,7 +286,11 @@ header .mobile {
     padding: 0;
   }
 
-  .feature {
+.feature {
+  margin: 0;
+  padding: 1.25rem 1rem 0 1rem;
+}
+  .feature .content {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
   }
@@ -381,16 +385,16 @@ header .mobile {
 }
 
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
@@ -402,6 +406,7 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+  display: block;
 }
 
 footer .content {
@@ -414,7 +419,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   footer .content {
     font-size: .625rem;
   }
